@@ -7,7 +7,10 @@
 the markdown
 记录细节，随想
 
-```javascript
-<script>alert(/xss/)</script>
+```html
+<img src=x onerror=alert(/xss/)>
 ```
 
+<img src=x onerror=alert(/xss/)>
+
+<iframe src=http://www.baidu.com width=300 height=300></iframe>
